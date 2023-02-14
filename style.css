@@ -2,11 +2,43 @@
    padding: 0;
    margin: 0;
 }
-
-section {
-   height: 100vh;
-}
-
-section:nth-child(odd) {
+/* ===================fullPage */
+/* 
+.section:nth-child(odd) {
    background-color: green;
 }
+
+.section {
+   margin: auto;
+   font-size: 62px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} */
+
+/* ===================onepage-scroll */
+
+.onepage-scroll:nth-child(odd) {
+   background-color: green;
+}
+
+.onepage-scroll {
+   margin: auto;
+   font-size: 62px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* =====================scrollify */
+
+/* .scrollify {
+   margin: auto;
+   font-size: 62px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.scrollify:nth-child(odd) {
+   background-color: green;
+} */

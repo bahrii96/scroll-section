@@ -1,7 +1,7 @@
 // ===========================scrollify
 // (function ($) {
 //    $.scrollify({
-//       section: '.sectionss',
+//       section: '.scrollify',
 //    });
 // })(jQuery);
 
@@ -21,7 +21,7 @@
 
 (function ($) {
    $('.main').onepage_scroll({
-      sectionContainer: '.sections', // контейнер, к которому будет применяться скролл
+      sectionContainer: '.onepage-scroll', // контейнер, к которому будет применяться скролл
       easing: 'ease', // Тип анимации "ease", "linear", "ease-in", "ease-out", "ease-in-out"
       animationTime: 1000, // время анимации
       pagination: true, // скрыть или отобразить пагинатор
